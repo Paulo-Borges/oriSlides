@@ -14,7 +14,7 @@ img {
   max-width: 100%;
 }
 
-.wrapper {
+.slide-wrapper {
   overflow: hidden;
 }
 .slide {
@@ -27,6 +27,4 @@ img {
   max-width: 800px;
   margin: 0px 20px;
 }
-.slide {
-  transform: translate3d(-600px, 0px, 0px);
-}
+
