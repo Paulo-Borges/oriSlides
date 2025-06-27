@@ -1,30 +1,3 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-:root {
-  --text-primary: #000;
-}
-ul {
-  list-style: none;
-}
-img {
-  display: block;
-  max-width: 100%;
-}
-
-.slide-wrapper {
-  overflow: hidden;
-}
-.slide {
-  display: flex;
-}
-
-.slide li {
-  flex-shrink: 0;
-  width: 80vw;
-  max-width: 800px;
-  margin: 0px 20px;
-}
+@import './geral.css';
+@import './slide.css';
 
