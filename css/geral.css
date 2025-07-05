@@ -5,6 +5,8 @@
 }
 :root {
   --text-primary: #000;
+  --color-primary: #fb5;
+  --color-secondary: #e54;
 }
 ul {
   list-style: none;
