@@ -15,4 +15,23 @@ img {
   display: block;
   max-width: 100%;
 }
+.arrow-nav {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0px;
+}
 
+.arrow-nav button{
+  cursor: pointer;
+  padding: 0px 5px;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  color: white;
+  background: var(--color-primary) url('../img/arrow.svg') center center no-repeat;
+}
+
+.arrow-nav button.prev{
+ transform: rotate(-180deg);
+}
